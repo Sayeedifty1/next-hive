@@ -29,7 +29,7 @@ export default function AddProductPage() {
       <h1 className="mb-3 text-lg font-bold">Add products</h1>
       <form action={addProduct}>
         <input
-          className="input-bordered mb-3 w-full "
+          className="rounded-xs input-bordered mb-3 w-full rounded-md p-1"
           required
           name="name"
           placeholder="Name"
@@ -41,14 +41,14 @@ export default function AddProductPage() {
           placeholder="Description"
         />
         <input
-          className="input-bordered mb-3 w-full "
+          className="input-bordered mb-3 w-full rounded-md p-1"
           required
           name="imageUrl"
           type="url"
           placeholder="Image URL"
         />
         <input
-          className="input-bordered mb-3 w-full "
+          className="input-bordered mb-3 w-full rounded-md p-1"
           required
           name="price"
           placeholder="Price"
