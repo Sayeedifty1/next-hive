@@ -27,7 +27,7 @@ export default function AddProductPage() {
   return (
     <div>
       <h1 className="mb-3 text-lg font-bold">Add products</h1>
-      <form>
+      <form action={addProduct}>
         <input
           className="input-bordered mb-3 w-full "
           required
@@ -43,7 +43,7 @@ export default function AddProductPage() {
         <input
           className="input-bordered mb-3 w-full "
           required
-          name="imagerurl"
+          name="imageUrl"
           type="url"
           placeholder="Image URL"
         />
